@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    display: flex;
+}
+.logo_icon{
+    background: rgb(128, 26, 224);
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.logo > h4{
+    font-size: 18px;
+    font-weight: 650;
+}
+.navigation{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.navigation_links > a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.preview_btn{
+    background: white;
+    height: 35px;
+    width: 95px;
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px; 
+}
+.nav_buy_btn{
+    background: rgb(128, 26, 224);
+    height: 35px;
+    width: 85px;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.hero_section{
+    text-align: center;
+}
+.new_btn > button{ 
+    font-weight: 550;
+    margin-top: 120px;
+    background: rgb(226, 226, 226);
+    height: 28px;
+    width: 215px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+span{
+    margin-right: 10px;
+    color: white;
+    font-weight: 600;
+    background: rgb(128, 26, 224);
+    border: none;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+/* .new_btn{
+    text-align: center;
+} */
+.hero_text > h1{
+    font-size: 84px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+.hero_text > p{
+    font-size: 22px;
+    font-weight: 350;
+    margin-bottom: 20px;
+    color: lightslategray;
+}
+img{
+    height: 550px;
+    width: 1000px;
+}
+.live_preview_btn{
+    background: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 9px;
+    border: 2px solid whitesmoke;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px; 
+}
+.hero_buy_btn{
+    background: rgb(128, 26, 224);
+    height: 40px;
+    width: 90px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+button{
+    cursor: pointer;
+}
